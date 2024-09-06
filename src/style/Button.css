@@ -1,0 +1,21 @@
+button{    
+    background-color: deepskyblue;
+    border-color: white;        
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.aceptar {
+    margin-right: 15px;
+}
+
+button .aceptar :hover{
+    background-color: chocolate;
+}
